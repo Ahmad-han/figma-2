@@ -1,0 +1,156 @@
+@media only screen and (max-width: 800px) {
+	.container {
+		width: 375px;
+		margin: 0 auto;
+	}
+	.main {
+		width: 375px;
+	}
+	header {
+		width: 375px;
+		height: 275px;
+		background-image: url("img/Background.png");
+		background-size: cover;
+	}
+	nav {
+		display: inline;
+	}
+	nav > ul > li {
+		display: none;
+	}
+	.logo {
+		width: 116px;
+		margin-left: 120px;
+		padding-top: 30px;
+	}
+	.greeting {
+		width: 217px;
+		height: 110px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.greeting > span {
+	font-size: 20px;
+	}
+	.greeting > p {
+	font-size: 13px;
+	}
+	.latest-work {
+	font-size: 13px;
+	color: #fff;
+	cursor: pointer;
+	margin: 0 auto;
+	padding-top: 30px;
+	}
+	.about {
+		width: 375px;
+		height: 335px;
+		padding-top: 10px;
+	}
+	.about > h2 {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.about > p {
+		font-size: 12px;
+	}
+	.profile-slide {
+		width: 375px;
+		height: 620px;
+		margin: 0 auto;
+	}
+	.skills {
+		width: 375px;
+		padding: 0;
+	}
+	.skills > h2 {
+		text-align: center;
+	}
+	.profile {
+		width: 365px;
+		display: inline;
+		margin: 0 auto;
+	}
+	.profile > img {
+		width: 224px;
+		height: 218px;
+		margin: 0 auto;
+	}
+	.stats {
+		width: 310px;
+		font-size: 12px;
+		margin-left: 0;
+		padding-left: 50px;
+		padding-top: 10px;
+	}
+	.stat-name > img {
+		width: 211px;
+		height: 18px;
+	}
+	.portfolio {
+		width: 375px;
+		height: 410px;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.portfolio > h2 {
+		text-align: center;
+	}
+	.content {
+		display: block;
+		text-align: center;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.text {
+		height: 100px;
+	}
+	.text > b {
+		font-size: 14px;
+		font-weight: 500;
+		text-align: center;
+	}
+	.text > p {
+		font-size: 12px;
+	}
+	.slides {
+		width: 308px;
+		height: 196px;
+		margin: 0 auto;
+	}
+	.i1 {
+		width: 170px;
+		height: 70px;
+	}
+	.i2 {
+		width: 170px;
+		height: 115px;
+	}
+	.i3 {
+		width: 123px;
+		height: 113px;
+	}
+	.i4 {
+		width: 123px;
+		height: 70px;
+	}
+	.footer {
+		width: 375px;
+		height: 360px;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.footer > h2 {
+		text-align: center;
+	} 
+	.contacts {
+		flex-wrap: wrap;
+		justify-content: start;
+	}
+	.contacts > .block {
+		margin-right: 40px;
+	}
+	.footer > img {
+		margin: -60px 60px 0 0;
+	}
+}
